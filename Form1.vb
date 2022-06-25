@@ -81,7 +81,7 @@
                 costcontract = 30
         End Select
 
-        MsgBox(numMinutes.Value)
+
 
         costminutes = IIf(numMinutes.Value > 500, numMinutes.Value - 500, 0) * 0.2
         costtexts = IIf(numTexts.Value > 500, numTexts.Value - 500, 0) * 0.1
